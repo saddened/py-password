@@ -19,6 +19,7 @@ while ans:
     2. Password (16)
     3. Password (32)
     4. Password (48)
+    5. Exit
     """)
     ans=input("Please select an option: ") 
     if ans=="1": 
@@ -33,6 +34,9 @@ while ans:
     elif ans=="4":
       screen_clear()
       print ("Password (48):", randomString(48) ) 
+    elif ans=="5":
+      print ("Exiting")
+      exit()
     elif ans !="":
       screen_clear()
       print("\n Invalid choice. ") 
