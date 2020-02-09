@@ -37,7 +37,7 @@ while ans:
       print ("Password (48):", randomString(48) ) 
     elif ans=="5":
       print ("Accounts:") 
-      print ("Username: ", randomString(16) )
+      print ("Username:", randomString(16) )
       print ("Password:", randomString(20) )
     elif ans=="6":
       print ("Exiting")
